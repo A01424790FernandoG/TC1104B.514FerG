@@ -12,7 +12,7 @@ int main(){
         n=read(STDIN_FILENO,&c,1);
         may = toupper(c);
         if(may == 'A'|| may=='E' || may=='I' || may== 'O' || may=='U' || may=='a'|| may=='e'|| may=='i'|| may=='o'|| may=='u'){
-            write(2, "La letra es vocal", 17);
+            write(2, "1 \n", 17);
             write(STDOUT_FILENO,&may,1);
         }
     }while(n !=0);
