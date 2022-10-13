@@ -8,7 +8,7 @@ void hola(int signalNum){
 
 int cond;
 void terminarWhile(int signalN){
-    printf("Terminando while");
+    printf("Finishing while");
     cond = 0;
 }
 
@@ -18,10 +18,10 @@ int main(){
     //signal(2, hola);
     cond = 1;
     while(cond==1){
-        printf("Chanbeando \n");
+        printf("Working \n");
         sleep(1);
     }
-    printf("Aqui nunca llega");
+    printf("Never reaches this point");
     return 0;
 }
 
